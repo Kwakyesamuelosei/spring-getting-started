@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="io.turntabl.spring-getting-started.main" target="1.8" />
+      <module name="io.turntabl.spring-getting-started.test" target="1.8" />
       <module name="spring-getting-started.main" target="1.8" />
       <module name="spring-getting-started.test" target="1.8" />
     </bytecodeTargetLevel>

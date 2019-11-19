@@ -9,8 +9,8 @@ public class SpringGettingStartedApplication {
 		ApplicationContext ac = new ClassPathXmlApplicationContext("beans.xml");
 
 		HumanBean person = (HumanBean)ac.getBean("humanBean");
-
 		System.out.println(person.fname);
+		System.out.println(person.bestFriend.fname);
 	}
 
 }

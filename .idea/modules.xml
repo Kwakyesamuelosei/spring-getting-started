@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.turntabl.spring-getting-started.main.iml" filepath="$PROJECT_DIR$/.idea/modules/io.turntabl.spring-getting-started.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.turntabl.spring-getting-started.test.iml" filepath="$PROJECT_DIR$/.idea/modules/io.turntabl.spring-getting-started.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-getting-started.iml" filepath="$PROJECT_DIR$/spring-getting-started.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-getting-started.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-getting-started.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-getting-started.test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-getting-started.test.iml" />

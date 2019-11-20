@@ -18,7 +18,7 @@ public class SpringGettingStartedApplication {
 
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("beans.xml");
         CustomerDAOImpl customerDAO = (CustomerDAOImpl)ctx.getBean("customerDAO");
-        System.out.println(customerDAO.getCustomerProducts("Maria Anders"));
+        System.out.println(customerDAO.getCustomerProducts("Maria"));
 
 //        ApplicationContext ctx2 = new ClassPathXmlApplicationContext("beans.xml");
 //        ProductDAOImpl productDAO = (ProductDAOImpl)ctx2.getBean("productDAO");

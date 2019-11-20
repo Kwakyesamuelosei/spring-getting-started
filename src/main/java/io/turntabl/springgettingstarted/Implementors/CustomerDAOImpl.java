@@ -21,7 +21,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 
         List<ProductTo> products = jdbcTemplate.query(
                 "select products.product_name,products.unit_price from products inner join order_details on products.product_id = order_details.product_id inner join orders on order_details.order_id = orders.order_id inner join customers on orders.customer_id = customers.customer_id where customers.contact_name like ?",
-                new Object[]{name},
+                new Object[]{name + "%"},
                  BeanPropertyRowMapper.newInstance(ProductTo.class)
                 );
 

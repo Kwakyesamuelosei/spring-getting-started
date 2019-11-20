@@ -25,7 +25,7 @@ public class ProductTo {
 
     @Override
     public String toString() {
-        return "ProductTo{" +
+        return "{" +
                 "product_name='" + product_name + '\'' +
                 ", unit_price=" + unit_price +
                 '}';

@@ -21,6 +21,14 @@
         <property name="jdbcTemplate" ref="jdbcTemplate"/>
     </bean>
 
+    <bean id="productDAO" class="io.turntabl.springgettingstarted.Implementors.ProductDAOImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+
+    <bean id="salesDAO" class="io.turntabl.springgettingstarted.Implementors.SalesDAOImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate"/>
+    </bean>
+
 
 
     <bean id = "humanBean" class = "io.turntabl.springgettingstarted.HumanBean">

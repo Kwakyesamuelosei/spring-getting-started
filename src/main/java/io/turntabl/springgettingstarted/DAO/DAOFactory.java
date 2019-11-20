@@ -8,5 +8,4 @@ public interface DAOFactory {
     public ProductDAO getCustomerDao();
     public ProductDAOImpl getProductDAO();
     public SalesDAOImpl getSalesDAO();
-    public CategoryDAO getCategoryDAO();
 }
